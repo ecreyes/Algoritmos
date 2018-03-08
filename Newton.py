@@ -22,7 +22,9 @@ while(True):
         fxa = expr.subs(x,xr)
         fpxa = expr_d.subs(x,xr)
     n_iteration = n_iteration +1
+print "The solution is: "
 print solution
+print "The number of iterations are: "
 print n_iteration
     
 
